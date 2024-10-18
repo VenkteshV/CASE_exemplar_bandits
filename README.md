@@ -2,6 +2,8 @@
 
 Code base for the novel gap-index based exemplar selection approach
 
+Code is adopted from the repository https://github.com/clreda/linear-top-m, Code associated with AISTATS 2021 paper "Top-m identification for linear bandits". We extended their setup to implement our algorithm CASE with related changes for synthetic experiments and implementatiosn for ICl exempalr selection for large langauge models. We thank the authors for making their code open source.
+
 
 ## TL;DR
 
