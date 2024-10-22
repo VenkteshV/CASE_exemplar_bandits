@@ -55,3 +55,15 @@ python main.py --small_K 20 --data linear --omega 0.1 --sigma 0.5 --bandit LinGI
 ### Add a new problem type
 
 - Check file *problems.py*. You need to create a sub-instance of **GenericProblem** and add it to the *problem\_factory*. Then you will be able to invoke it from the terminal with option "--problem".
+
+
+# Real World Experimets for LLM exemplar selection
+
+The exemplar selection experiments can be found at Code/LLM_experiments
+
+For instance to select exemplars for tabmwp run
+```
+python Code/LLM_experiments/CASE_tabmwp_selection.py
+```
+
+All data for the 5 benchmarks can be found at Code/LLM_exepriments/data
