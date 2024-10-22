@@ -226,7 +226,7 @@ def LLM_avg_error(exemplars_set, val_data):
             print("\nGen Answer:", answer)
             print("Ground Truth:", ground_truth)
 
-            if answer!="" and (ground_truth.lower() in answer.lower() or answer.lower() in ground_truth.lower()):
+            if answer!="" and ground_truth.lower() in answer.lower():
                 matches+=1
             else:
                 mismatches+=1
@@ -255,7 +255,7 @@ def LLM_error_indicator(exemplars, val_data):
         # print("\nGen Answer:", answer)
         # print("Ground Truth:", ground_truth)
 
-        if answer!="" and (ground_truth.lower() in answer.lower() or answer.lower() in ground_truth.lower()):
+        if answer!="" and ground_truth.lower() in answer.lower():
             subset_accuracy+= 1
         else:
             subset_accuracy+= 0
@@ -991,7 +991,7 @@ def get_open_source_completions(test_data, data):
         print("\nGen Answer:", answer)
         print("Ground Truth:", ground_truth)
 
-        if answer!="" and (ground_truth.lower() in answer.lower() or answer.lower() in ground_truth.lower()):
+        if answer!="" and ground_truth.lower() in answer.lower():
             matches+=1
         else:
             mismatches+=1
