@@ -67,5 +67,8 @@ For instance to select exemplars for tabmwp run
 ```
 python Code/LLM_experiments/CASE_tabmwp_selection.py
 ```
+```
+Alternatively you can directly use the selected exemplars released by us in ICLR_CASE/CASE_exemplar_bandit/Code/LLM_experiments/output using both Llama2, mistral and run inference using gpt-3.5 or other models on the test set of benchmarks to reproduce the main results in our paper. We call this the exemplar reuse setting as stated in the paper
+```
 
 All data for the 5 benchmarks can be found at Code/LLM_exepriments/data
