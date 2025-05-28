@@ -1,4 +1,4 @@
-# CASE_exemplar_bandits
+# Sample Efficient Demonstration Selection for In-Context Learning (CASE algorithm)
 
 Code base for the novel gap-index based exemplar selection approach
 
